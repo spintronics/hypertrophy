@@ -1,0 +1,7 @@
+{
+  "name": "hypertrophy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
