@@ -8,7 +8,8 @@ server:
 - for the api flask
 - unittest for testing
 
-postman is a nice tool for testing and api as you build it
+to get started, run `pipenv install` from the server folder
+you can run the test suite with `pipenv run pytest`
 
 I recommend mostly ignoring the database at the start. Mongo is a document store so it's basically just objects (python dictionary). I would use the fixtures to define the data and the api then worry about persisting it in mongo once much of that work has been done and tests passed.
 
